@@ -1,0 +1,165 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Passion+One:wght@900&family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+header{
+    background-color: red;
+    color: white;
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+}
+.logo-titulo{
+    display: flex;
+    align-items: center;
+    margin-left: 4em;
+    gap: 10px;
+}
+.menu{
+    display: none;
+}
+.cart{
+    display: flex;
+    align-items: center;
+    margin-right: 3.5em;
+}
+.cart span{
+    font-size: 2.2em;
+}
+.cart span:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.209);
+    padding: 5px;
+    transition: 0.3s;
+}
+#img{
+    display: flex;
+    margin: auto;
+}
+.img-2{
+    display: flex;
+    justify-content: center;
+    gap: 2.5em;
+    margin-top: 1em;
+}
+.img-2 img{
+    background-color: #EDEDED;
+    height: 70px;
+    width: 70px;
+    justify-content: center;
+    display: inline-flex;
+    cursor: pointer;
+    transition: all.55s ease;
+}
+#img2:hover{
+    transform: translateY(-8px);
+}
+#img3:hover{
+    transform: translateY(-8px);
+}
+#img4:hover{
+    transform: translateY(-8px);
+}
+#img5:hover{
+    transform: translateY(-8px);
+}
+.tamanho{
+    color: red;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top: 1.2em;
+}
+.tamanho p{
+    margin-left: -20em;
+}
+.botao{
+    display: inline-flex;
+    margin-top: 0.7em;
+    gap: 10px;
+    margin-left: -9em;
+}
+.botao button{
+    border-radius: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: red;
+    font-weight: bolder;
+    border-color: red;
+}
+.botao button:hover{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.text{
+    color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2em;
+    margin-top: 1.2em;
+}
+.text h1{
+    margin-left: -5.5em;
+    font-size: 1.5em;
+}
+.text p{
+    margin-left: -14em;
+}
+.text h3{
+    margin-left: -16.5em;
+}
+.text a{
+    display: inline-flex;
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn{
+    display: inline-block;
+    padding: 15px 110px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: white;
+    border: 2px solid red;
+    color: red;
+    transform: translateY(8px);
+    margin-left: -2.2em;
+}
+.btn:hover {
+    background-color: red;
+    color: white;
+    transition: 0.5s;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 4em;
+    border: 2px solid red;
+    background-color: #EDEDED;
+}
+footer a{
+    color: red;
+    font-weight: bolder;
+}
+footer a:hover{
+    color: white;
+    background-color: red;
+    transition: 0.7s;
+    
+}

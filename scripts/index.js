@@ -1,4 +1,4 @@
 function slider(anything) {
-    document.querySelector('.camisa-frente').src = anything;
+    document.querySelector('#img').src = anything;
 };
 slider(anything)

@@ -50,7 +50,16 @@
     }
     .principal h1{
         font-size: 1.6em;
-        margin-left: -4.9em;
+        margin-left: -2.7em;
+    }
+    .text p{
+        margin-left: -11em;
+    }
+    .text h3{
+        margin-left: -14em;
+    }
+    .btn{
+        margin-left: 10px;
     }
 }
 

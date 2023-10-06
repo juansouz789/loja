@@ -19,11 +19,12 @@ header{
     display: flex;
     height: 80px;
     justify-content: space-between;
+    width: 100%;
 }
 .logo-titulo{
     display: flex;
     align-items: center;
-    margin-left: 4em;
+    margin-left: 3.4em;
     gap: 10px;
 }
 .menu{

@@ -84,13 +84,13 @@ header{
     margin-top: 1.2em;
 }
 .tamanho p{
-    margin-left: -16em;
+    margin-left: -16.2em;
 }
 .botao{
     display: inline-flex;
     margin-top: 0.7em;
     gap: 10px;
-    margin-left: -4.9em;
+    margin-left: -5.2em;
 }
 .botao button{
     border-radius: 45px;
@@ -167,5 +167,4 @@ footer a:hover{
     color: white;
     background-color: red;
     transition: 0.7s;
-    
 }

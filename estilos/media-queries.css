@@ -61,6 +61,39 @@
     .btn{
         margin-left: 10px;
     }
+    .info{
+        margin-top: 5rem;
+        padding-left: 7rem;
+        width: 50vw;
+        margin-bottom: 2rem;
+    }
+    .info div{
+        display: flex;
+        flex-direction: column;
+    }
+    #title-aside{
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: red;
+        padding-top: 5rem;
+        font-size: 2.5rem;
+    }
+    .info h3{
+        color: red;
+        margin-bottom: 1rem;
+    }
+    .info p{
+        text-align: justify;
+        color: red;
+        margin-bottom: 1.2rem;
+    }
+    .info ul{
+        padding-left: 2rem;
+    }
+    .info ul li{
+        list-style:disc;
+        color: red;
+    }
 }
 
 @media screen and (min-width:1200px){
